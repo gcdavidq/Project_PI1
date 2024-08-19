@@ -15,3 +15,18 @@ La regresión lineal es una técnica estadística sencilla que nos permite enten
 Cuando solo tienes una cosa que afecta a otra. Es como trazar una línea recta en un gráfico que conecta todos tus puntos de datos, tratando de estar lo más cerca posible de todos ellos.
 ### Regresión Lineal Múltiple:
 Aquí tienes más de una cosa que influye. Por ejemplo, si además del tamaño de la casa, también consideras la ubicación y la antigüedad, la regresión lineal múltiple te ayudará a entender cómo todas estas variables juntas afectan al precio.
+
+## METODOLOGÍA:
+
+## RESULTADOS:
+
+## DISCUSIÓN:
+
+## REFERENCIAS:
+ * "Regresión lineal," Wikipedia, la enciclopedia libre. https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal (accedido: ago. 19, 2024).
+* J. Acevedo and L. Ponce, "Análisis de regresión lineal simple y múltiple," *Sociedad de Anestesiología de Chile*, https://www.sachile.cl/upfiles/revistas/54e63943b5d69_14_regresion-2-2014_edit.pdf (accedido: ago. 19, 2024).
+
+
+
+
+
