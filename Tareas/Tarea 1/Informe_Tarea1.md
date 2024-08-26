@@ -33,8 +33,11 @@ Para medir la efectividad del modelo, calculamos el Error Absoluto Medio (MAE) y
 
 ## REFERENCIAS:
 [[1]] U.S. Environmental Protection Agency. "EPA Environmental Datasets." [Online]. Available: https://www.epa.gov/environmental-datasets
+
 [[2]] U.S. Environmental Protection Agency. "Air Quality Statistics." [Online]. Available: https://www.epa.gov/outdoor-air-quality-data/air-quality-statistics
+
 [[3]] G. James, D. Witten, T. Hastie, and R. Tibshirani, An Introduction to Statistical Learning, 7th ed., Springer, 2013, pp. 59-70.
+
 [[4]] J. Acevedo y L. Ponce, "Análisis de regresión lineal simple y múltiple," Sociedad de Anestesiología de Chile. [En línea]. Disponible en: https://www.sachile.cl/upfiles/revistas/54e63943b5d69_14_regresion-2-2014_edit.pdf.
 
 
