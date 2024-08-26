@@ -22,6 +22,11 @@ Siendo así, con este informe se pretende demostrar la aplicación práctica de 
 ## METODOLOGÍA:
 
 ## RESULTADOS:
+Para evaluar nuestro modelo se usaron 2 métricas: el coeficiente de determinación (R²) cuyo resultado fue de 0.988 lo cual muestra que nuestro modelo se ajusta bien a nuestros datos. Mientras que el error absoluto medio (MAE) fue de 0.023, que indica que la diferencia entre los valores predichos por nuestro modelo y los valores reales es baja. 
+
+En la gráfica mostrada a continuación se visualiza una gráfica de dispersión entre los valores predichos por nuestro modelo y los valores reales de la “Concentración máxima diaria de CO en 8 horas”.
+
+![Gráfica de dispersión entre Valores Reales y Predichos del Daily Max 8-hour CO Concentration](https://github.com/user-attachments/assets/ca62e15d-c582-452b-b4e0-e610fb4ae755)
 
 ## DISCUSIÓN:
 En nuestro análisis grupal, utilizamos la regresión lineal para examinar cómo la concentración diaria de monóxido de carbono (CO) impacta el Índice de Calidad del Aire (AQI) en California durante varios años. Esta técnica fue elegida porque nos permitió, de manera sencilla, explorar la relación entre estas dos variables.
