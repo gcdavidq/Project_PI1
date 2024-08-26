@@ -21,6 +21,11 @@ Aquí tienes más de una cosa que influye. Por ejemplo, si además del tamaño d
 ## RESULTADOS:
 
 ## DISCUSIÓN:
+En nuestro análisis grupal, utilizamos la regresión lineal para examinar cómo la concentración diaria de monóxido de carbono (CO) impacta el Índice de Calidad del Aire (AQI) en California durante varios años. Esta técnica fue elegida porque nos permitió, de manera sencilla, explorar la relación entre estas dos variables.
+Primero, como grupo, recopilamos datos de la web de diferentes años, asegurándonos de que fueran consistentes y completos para poder entrenar un modelo robusto. Este paso fue crucial, ya que contar con un conjunto de datos adecuado es esencial para obtener resultados confiables.
+Luego, aplicamos la regresión lineal simple para crear un modelo que predijera el AQI en función de las concentraciones de CO. A través de este modelo, pudimos visualizar cómo el AQI se comporta en relación con el CO, lo cual nos dio una visión clara de la tendencia general. Sin embargo, notamos que el modelo no siempre predijo con total precisión los valores reales, lo cual era esperado, ya que el AQI está influenciado por múltiples factores.
+Para medir la efectividad del modelo, calculamos el Error Absoluto Medio (MAE) y el (R cuadrado) R**2. Estas métricas nos permitieron evaluar qué tan bien el modelo se ajustó a los datos reales. Aunque los resultados fueron alentadores, como grupo reconocimos que el análisis podría mejorarse incluyendo más variables, como otros contaminantes o condiciones meteorológicas, lo que podría hacer las predicciones más precisas y útiles.
+En resumen, este ejercicio de regresión lineal nos permitió entender mejor la relación entre el CO y el AQI. Si bien el modelo es un buen punto de partida y proporciona información valiosa, es evidente que para obtener predicciones más detalladas y confiables, sería necesario considerar un enfoque más complejo que incluya una gama más amplia de factores. Este análisis inicial ha sido un buen trabajo en equipo y nos ha brindado una base sólida para futuros estudios.
 
 ## REFERENCIAS:
  * "Regresión lineal," Wikipedia, la enciclopedia libre. https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal (accedido: ago. 19, 2024).
