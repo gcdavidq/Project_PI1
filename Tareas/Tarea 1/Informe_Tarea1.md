@@ -21,6 +21,34 @@ Siendo así, con este informe se pretende demostrar la aplicación práctica de 
 
 ## METODOLOGÍA:
 
+La metodología seguida en este estudio se detalla a continuación, abarcando desde la recolección de datos hasta la construcción y comparación de modelos de regresión lineal múltiple para predecir la concentración de dióxido de carbono (CO2).
+
+- Recolección de Datos:
+
+Los datos se obtienen desde un repositorio público de GitHub, donde están almacenados archivos con información sobre la calidad del aire proporcionada por la Agencia de Protección Ambiental de Estados Unidos (EPA).
+El periodo de análisis comprende cinco años (2019-2023) y se centra en el estado de California.
+
+- Preprocesamiento de Datos:
+
+Los archivos descargados se convierten en DataFrames utilizando Python y la librería Pandas, facilitando la manipulación y análisis de los datos.
+
+Se realiza una filtración de los datos para seleccionar únicamente las columnas relevantes para la predicción. En este caso, se eligen las columnas correspondientes a "Daily AQI Value" y "Daily Max 8-hour CO Concentration", entre otras variables que podrían influir en las concentraciones de CO2.
+
+- Ajuste de los Datos:
+
+Las columnas seleccionadas se ajustan para asegurar que sean adecuadas para el modelo de predicción. Esto incluye el manejo de valores faltantes, la normalización o estandarización de los datos, y la transformación de las fechas y IDs de ciudades en formatos que el modelo pueda interpretar.
+
+- Construcción de Modelos de Regresión Lineal Múltiple:
+
+Modelo 1: Utiliza únicamente las variables "Daily AQI Value" como predictor.
+
+Modelo 2: Además de las variables del Modelo 1, se incluyen la fecha y el ID de la ciudad como variables adicionales para mejorar la precisión del modelo.
+
+-Entrenamiento y Evaluación de los Modelos:
+
+Ambos modelos se entrenan con los datos históricos utilizando un conjunto de entrenamiento y se validan con un conjunto de prueba.
+Se comparan los resultados de ambos modelos en términos de precisión y capacidad predictiva, determinando cuál ofrece mejores predicciones de las concentraciones de CO2.
+
 ## RESULTADOS:
 Para evaluar nuestro modelo se usaron 2 métricas: el coeficiente de determinación (R²) cuyo resultado fue de 0.988 lo cual muestra que nuestro modelo se ajusta bien a nuestros datos. Mientras que el error absoluto medio (MAE) fue de 0.023, que indica que la diferencia entre los valores predichos por nuestro modelo y los valores reales es baja. 
 
