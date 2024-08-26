@@ -8,13 +8,16 @@
 - Salazar Cobian, Arny Eliu
 
 ## INTRODUCCIÓN: 
-La regresión lineal es una técnica estadística sencilla que nos permite entender cómo una variable depende de otra y hacer predicciones basadas en datos reales. Al trazar una línea a través de un conjunto de datos, podemos visualizar y cuantificar la relación entre dos o más factores en diversos campos, desde la economía hasta la ciencia. Su simplicidad y efectividad la convierten en una herramienta esencial para analizar tendencias y tomar decisiones informadas. Además, es fácil de entender y aplicar, lo que la hace útil en situaciones cotidianas, como predecir cuánto podrías gastar en gasolina según los kilómetros recorridos.
+En el presente informe se aborda de manera detallada el proceso metodológico para trabajar con modelos de aprendizaje automático, con un enfoque particular en la aplicación de la regresión lineal múltiple. Este modelo ha sido seleccionado debido a su capacidad para modelar la relación entre múltiples variables independientes y una variable dependiente continua. El estudio parte de la recolección y análisis de datos proporcionados por la Agencia de Protección Ambiental de Estados Unidos (EPA, por sus siglas en inglés) [1]. La EPA ofrece un vasto repositorio de datos ambientales, entre los cuales se encuentran estadísticas diarias sobre la calidad del aire para diversos contaminantes monitoreados en ciudades, condados y estados de Estados Unidos [2].
 
-### Hay dos formas principales de hacer regresión lineal:
-### Regresión Lineal Simple:
-Cuando solo tienes una cosa que afecta a otra. Es como trazar una línea recta en un gráfico que conecta todos tus puntos de datos, tratando de estar lo más cerca posible de todos ellos.
-### Regresión Lineal Múltiple:
-Aquí tienes más de una cosa que influye. Por ejemplo, si además del tamaño de la casa, también consideras la ubicación y la antigüedad, la regresión lineal múltiple te ayudará a entender cómo todas estas variables juntas afectan al precio.
+Para este análisis, se han seleccionado datos referentes a la contaminación por dióxido de carbono (CO2) en el estado de California, abarcando un periodo de cinco años (2019-2023). La elección de este conjunto de datos responde a la necesidad de entender y predecir las concentraciones de CO2 en función del índice diario de calidad del aire. Este enfoque permite no solo observar tendencias históricas sino también generar predicciones que pueden ser críticas para la toma de decisiones en políticas ambientales y de salud pública.
+
+El informe presenta una comparación inicial entre dos enfoques comunes en el aprendizaje automático: la clasificación y la regresión. Dado que nuestro objetivo es predecir valores numéricos continuos, la regresión se establece como el modelo adecuado, descartando así la clasificación, que se orienta a la predicción de categorías discretas. Dentro del ámbito de la regresión, se opta por la regresión lineal debido a su capacidad para modelar de manera directa la relación lineal entre las variables. Este modelo no solo facilita la comprensión de cómo las concentraciones de CO2 varían en función de diversos factores, sino que también permite realizar predicciones precisas y basadas en datos empíricos [3]. 
+
+El enfoque principal de este informe será la implementación de la regresión lineal múltiple, donde se modela la relación entre una variable dependiente, en este caso, la concentración de CO2, y múltiples variables independientes, como las mediciones diarias de calidad del aire. Este método ofrece la ventaja de considerar varios factores simultáneamente, proporcionando un modelo más robusto y preciso para predecir las concentraciones futuras de CO2 [4]. 
+
+Siendo así, con este informe se pretende demostrar la aplicación práctica de la regresión lineal múltiple en el contexto de la predicción de contaminantes ambientales. La metodología y los resultados aquí expuestos buscan no solo evidenciar la eficacia de este modelo, sino también ofrecer una herramienta analítica valiosa para la comprensión y gestión de la calidad del aire en California. A través de este análisis, se espera contribuir al desarrollo de estrategias más informadas y efectivas en la mitigación del impacto ambiental de la contaminación por CO2.
+
 
 ## METODOLOGÍA:
 
@@ -29,8 +32,10 @@ Luego, aplicamos la regresión lineal simple para crear un modelo que predijera 
 Para medir la efectividad del modelo, calculamos el Error Absoluto Medio (MAE) y el (R cuadrado) R**2. Estas métricas nos permitieron evaluar qué tan bien el modelo se ajustó a los datos reales. Aunque los resultados fueron alentadores, como grupo reconocimos que el análisis podría mejorarse incluyendo más variables, como otros contaminantes o condiciones meteorológicas, lo que podría hacer las predicciones más precisas y útiles.
 
 ## REFERENCIAS:
- * "Regresión lineal," Wikipedia, la enciclopedia libre. https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal (accedido: ago. 19, 2024).
-* J. Acevedo and L. Ponce, "Análisis de regresión lineal simple y múltiple," *Sociedad de Anestesiología de Chile*, https://www.sachile.cl/upfiles/revistas/54e63943b5d69_14_regresion-2-2014_edit.pdf (accedido: ago. 19, 2024).
+[[1]] U.S. Environmental Protection Agency. "EPA Environmental Datasets." [Online]. Available: https://www.epa.gov/environmental-datasets
+[[2]] U.S. Environmental Protection Agency. "Air Quality Statistics." [Online]. Available: https://www.epa.gov/outdoor-air-quality-data/air-quality-statistics
+[[3]] G. James, D. Witten, T. Hastie, and R. Tibshirani, An Introduction to Statistical Learning, 7th ed., Springer, 2013, pp. 59-70.
+[[4]] J. Acevedo y L. Ponce, "Análisis de regresión lineal simple y múltiple," Sociedad de Anestesiología de Chile. [En línea]. Disponible en: https://www.sachile.cl/upfiles/revistas/54e63943b5d69_14_regresion-2-2014_edit.pdf.
 
 
 
