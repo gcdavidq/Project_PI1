@@ -29,6 +29,12 @@ Para clasificar los movimientos, optamos por una red neuronal simple, que es per
 ![image](https://github.com/user-attachments/assets/df447bde-6b7d-4238-9564-ed267f6978f9)
 
 - Entrenamiento y Validación: Incluir detalles sobre el proceso de entrenamiento, como la cantidad de épocas, tasa de aprendizaje, y el porcentaje de datos utilizados para entrenamiento y validación. Mencionar los resultados obtenidos en términos de precisión, pérdida, etc.
+
+4. Entrenamiento y Validación
+El entrenamiento se llevó a cabo en Edge Impulse, dividiendo los datos en un 70% para entrenamiento y un 30% para validación. Entrenamos el modelo durante 100 épocas, usando una tasa de aprendizaje de 0.001. Durante el entrenamiento, fuimos monitoreando cómo mejoraban la precisión y la pérdida, y al final logramos una precisión de alrededor del 95% en los datos de validación, lo cual fue bastante satisfactorio. También revisamos la curva de aprendizaje para asegurarnos de que el modelo no estuviera sobreajustando, y todo salió dentro de lo esperado.
+
+
+
 ![image](https://github.com/user-attachments/assets/62369d4a-0d86-44d8-b7fc-b1a1e0cd2580)
 
 ![image](https://github.com/user-attachments/assets/4866b885-086b-4e71-9e27-bce8cfc7cee3)
