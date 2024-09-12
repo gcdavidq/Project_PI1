@@ -44,4 +44,6 @@ International Centro for Theoretical Physics ICTP (2024) [Online]. Disponible: h
 
 Edge Impulse, "Documentation," Edge Impulse, 2024. [En línea]. Disponible: https://docs.edgeimpulse.com/. [Accedido: 12-sep-2024].
 
+Arduino, "Arduino Nano 33 BLE Sense," Arduino Store, 2024. [En línea]. Disponible: https://store.arduino.cc/products/arduino-nano-33-ble-sense. [Accedido: 12-sep-2024].
+
 
