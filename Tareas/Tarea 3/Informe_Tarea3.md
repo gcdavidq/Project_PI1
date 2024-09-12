@@ -15,7 +15,6 @@ Para esta actividad, se utilizó la placa Arduino Nano 33 BLE Sense, equipada co
 El objetivo principal de esta tarea consistió en recolectar datos de movimiento, grabando la trayectoria de figuras específicas como un círculo, el número "1" y el número "3" con el acelerómetro del Arduino. A partir de estos datos, se entrenó un modelo de clasificación en Edge Impulse, el cual fue cargado en la placa para realizar predicciones en tiempo real, permitiendo la identificación precisa de las figuras dibujadas a partir de los movimientos detectados. Esta implementación demuestra el potencial de TinyML para la creación de dispositivos interactivos y autónomos que no dependen de la conectividad a la nube.
 
 ## Metodología
-- Subida de Datos a Edge Impulse: Explicar cómo subiste los datos capturados a Edge Impulse. Incluir detalles sobre cómo etiquetaste las muestras y los pasos seguidos en la plataforma.
 1. Subida de Datos a Edge Impulse
 En primer lugar, se capturaron los datos utilizando el acelerómetro del Arduino Nano 33 BLE Sense, grabando movimientos que formaban figuras específicas como un círculo, el número "1" y el número "3". Estos datos fueron cargados a la plataforma Edge Impulse a través de la herramienta de conexión serial. Cada muestra fue etiquetada manualmente para asociarla con la figura correspondiente. El etiquetado adecuado fue fundamental para garantizar la precisión del modelo durante el entrenamiento. En Edge Impulse, se siguieron los pasos estándar: creación de un proyecto, selección de dispositivo y subida de los datos capturados.
   
