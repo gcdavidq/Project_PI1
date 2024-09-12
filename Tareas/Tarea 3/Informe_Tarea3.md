@@ -3,14 +3,16 @@
 ## INTEGRANTES: 
 - Arquiño Cerna, Noemi Salomina
 - Aybar Escobar, Edithson Ricardo
-- Colla Cervantes, Marelly Massiel
+- Colla Cervantes, Marelly Massiel 
 - Quezada Marceliano, Gian Carlos
 - Salazar Cobian, Arny Eliu
 
 ## Introducción
-En el presente informe se aborda el concepto de TinyML; una nueva tecnología que permite que los modelos de aprendizaje automático se ejecuten en microcontroladores de bajo costo y bajo consumo (ICTP, 2024). Para esta actividad, se utilizó una placa Arduino Nano 33 BLE Sense en conjunto con la plataforma Edge Impulse para la captura de datos, entrenamiento del modelo de clasificación y despliegue del modelo entrenado. 
+En el presente informe se aborda el concepto de TinyML, una tecnología emergente que permite ejecutar modelos de aprendizaje automático directamente en microcontroladores de bajo costo y consumo energético reducido, abriendo la puerta a nuevas aplicaciones en dispositivos con recursos limitados (ICTP, 2024). TinyML facilita la creación de soluciones inteligentes sin la necesidad de infraestructuras costosas o de gran tamaño, lo que resulta ideal para sistemas embebidos en sectores como la salud, la agricultura y el IoT.
 
-El objetivo de esta tarea consistió en recolectar datos mediante la grabación de movimientos que formaban figuras específicas, como un círculo, el número "1" y el número "3", utilizando el acelerómetro integrado en el Arduino. A partir de los datos obtenidos, se entrenó un modelo de clasificación con Edge Impulse, que posteriormente fue cargado en el Arduino Nano 33 BLE Sense para realizar la predicción de las formas dibujadas en tiempo real.
+Para esta actividad, se utilizó la placa Arduino Nano 33 BLE Sense, equipada con un acelerómetro integrado, en conjunto con la plataforma Edge Impulse para capturar datos, entrenar un modelo de clasificación y desplegar el modelo entrenado directamente en el dispositivo. Edge Impulse proporcionó un entorno intuitivo para la recolección de datos, el procesamiento de señales y el entrenamiento del modelo, optimizado para dispositivos con recursos limitados como el Arduino Nano.
+
+El objetivo principal de esta tarea consistió en recolectar datos de movimiento, grabando la trayectoria de figuras específicas como un círculo, el número "1" y el número "3" con el acelerómetro del Arduino. A partir de estos datos, se entrenó un modelo de clasificación en Edge Impulse, el cual fue cargado en la placa para realizar predicciones en tiempo real, permitiendo la identificación precisa de las figuras dibujadas a partir de los movimientos detectados. Esta implementación demuestra el potencial de TinyML para la creación de dispositivos interactivos y autónomos que no dependen de la conectividad a la nube.
 
 ## Metodología
 - Subida de Datos a Edge Impulse: Explicar cómo subiste los datos capturados a Edge Impulse. Incluir detalles sobre cómo etiquetaste las muestras y los pasos seguidos en la plataforma.
