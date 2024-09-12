@@ -21,18 +21,14 @@ En primer lugar, se capturaron los datos utilizando el acelerómetro del Arduino
   ![image](https://github.com/user-attachments/assets/8129bab5-8f62-4d73-a57d-c05b2f172943)
 - Preprocesamiento: Describir cualquier preprocesamiento realizado, como filtrado de ruido, normalización, o segmentación de los datos.
 
-- Configuración del Modelo: Explicar el modelo que utilizaste (por ejemplo, una red neuronal simple), la arquitectura, los hiperparámetros (como número de capas, neuronas, función de activación), y la razón detrás de estas decisiones
 
 - Configuración del Modelo
 Para clasificar los movimientos, optamos por una red neuronal simple, que es perfecta para detectar patrones en datos secuenciales como los que genera un acelerómetro. El modelo se configuró con una capa de entrada que coincidía con las características de los datos, seguida por dos capas ocultas de 64 y 32 neuronas, usando la función de activación ReLU para darle al modelo la capacidad de aprender relaciones no lineales. La capa de salida utilizó una función Softmax, que nos permitió clasificar los movimientos en tres categorías: círculo, número "1" y número "3". Estos parámetros fueron elegidos porque ofrecen un buen equilibrio entre rendimiento y la capacidad limitada de procesamiento del Arduino.
   
 ![image](https://github.com/user-attachments/assets/df447bde-6b7d-4238-9564-ed267f6978f9)
 
-- Entrenamiento y Validación: Incluir detalles sobre el proceso de entrenamiento, como la cantidad de épocas, tasa de aprendizaje, y el porcentaje de datos utilizados para entrenamiento y validación. Mencionar los resultados obtenidos en términos de precisión, pérdida, etc.
-
 - Entrenamiento y Validación
 El entrenamiento se llevó a cabo en Edge Impulse, dividiendo los datos en un 70% para entrenamiento y un 30% para validación. Entrenamos el modelo durante 100 épocas, usando una tasa de aprendizaje de 0.001. Durante el entrenamiento, fuimos monitoreando cómo mejoraban la precisión y la pérdida, y al final logramos una precisión de alrededor del 95% en los datos de validación, lo cual fue bastante satisfactorio. También revisamos la curva de aprendizaje para asegurarnos de que el modelo no estuviera sobreajustando, y todo salió dentro de lo esperado.
-
 
 
 ![image](https://github.com/user-attachments/assets/62369d4a-0d86-44d8-b7fc-b1a1e0cd2580)
