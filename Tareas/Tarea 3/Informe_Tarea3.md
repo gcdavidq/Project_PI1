@@ -41,3 +41,7 @@ Resultados:
 
 ## Referencias
 International Centro for Theoretical Physics ICTP (2024) [Online]. Disponible: https://www.ictp.it/news/2021/11/tiny-machine-learning
+
+Edge Impulse, "Documentation," Edge Impulse, 2024. [En línea]. Disponible: https://docs.edgeimpulse.com/. [Accedido: 12-sep-2024].
+
+
