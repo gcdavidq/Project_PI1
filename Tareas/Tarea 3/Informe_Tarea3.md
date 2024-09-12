@@ -22,6 +22,10 @@ En primer lugar, se capturaron los datos utilizando el acelerómetro del Arduino
 - Preprocesamiento: Describir cualquier preprocesamiento realizado, como filtrado de ruido, normalización, o segmentación de los datos.
 
 - Configuración del Modelo: Explicar el modelo que utilizaste (por ejemplo, una red neuronal simple), la arquitectura, los hiperparámetros (como número de capas, neuronas, función de activación), y la razón detrás de estas decisiones
+
+3. Configuración del Modelo
+Para clasificar los movimientos, optamos por una red neuronal simple, que es perfecta para detectar patrones en datos secuenciales como los que genera un acelerómetro. El modelo se configuró con una capa de entrada que coincidía con las características de los datos, seguida por dos capas ocultas de 64 y 32 neuronas, usando la función de activación ReLU para darle al modelo la capacidad de aprender relaciones no lineales. La capa de salida utilizó una función Softmax, que nos permitió clasificar los movimientos en tres categorías: círculo, número "1" y número "3". Estos parámetros fueron elegidos porque ofrecen un buen equilibrio entre rendimiento y la capacidad limitada de procesamiento del Arduino.
+  
 ![image](https://github.com/user-attachments/assets/df447bde-6b7d-4238-9564-ed267f6978f9)
 
 - Entrenamiento y Validación: Incluir detalles sobre el proceso de entrenamiento, como la cantidad de épocas, tasa de aprendizaje, y el porcentaje de datos utilizados para entrenamiento y validación. Mencionar los resultados obtenidos en términos de precisión, pérdida, etc.
