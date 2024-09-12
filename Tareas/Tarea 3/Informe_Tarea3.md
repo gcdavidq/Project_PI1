@@ -19,21 +19,23 @@ El objetivo principal de esta tarea consistió en recolectar datos de movimiento
 En primer lugar, se capturaron los datos utilizando el acelerómetro del Arduino Nano 33 BLE Sense, grabando movimientos que formaban figuras específicas como un círculo, el número "1" y el número "3". Estos datos fueron cargados a la plataforma Edge Impulse a través de la herramienta de conexión serial. Cada muestra fue etiquetada manualmente para asociarla con la figura correspondiente. El etiquetado adecuado fue fundamental para garantizar la precisión del modelo durante el entrenamiento. En Edge Impulse, se siguieron los pasos estándar: creación de un proyecto, selección de dispositivo y subida de los datos capturados.
   
   ![image](https://github.com/user-attachments/assets/8129bab5-8f62-4d73-a57d-c05b2f172943)
-- Preprocesamiento: Describir cualquier preprocesamiento realizado, como filtrado de ruido, normalización, o segmentación de los datos.
-
 
 - Configuración del Modelo
 Para clasificar los movimientos, optamos por una red neuronal simple, que es perfecta para detectar patrones en datos secuenciales como los que genera un acelerómetro. El modelo se configuró con una capa de entrada que coincidía con las características de los datos, seguida por dos capas ocultas de 20 y 10 neuronas, usando la función de activación ReLU para darle al modelo la capacidad de aprender relaciones no lineales. La capa de salida utilizó una función Softmax, que nos permitió clasificar los movimientos en tres categorías: círculo, número "1" y número "3". Estos parámetros fueron elegidos porque ofrecen un buen equilibrio entre rendimiento y la capacidad limitada de procesamiento del Arduino.
-  
-![image](https://github.com/user-attachments/assets/df447bde-6b7d-4238-9564-ed267f6978f9)
+
+![image](https://github.com/user-attachments/assets/14d9829a-d24a-497c-99db-28a63959ef1c)
+
 
 - Entrenamiento y Validación
 El entrenamiento se llevó a cabo en Edge Impulse, dividiendo los datos en un 79% para entrenamiento y un 21% para validación. Entrenamos el modelo durante 30 épocas, usando una tasa de aprendizaje de 0.0005. Durante el entrenamiento, fuimos monitoreando cómo mejoraban la precisión y la pérdida, y al final logramos una precisión de alrededor del 96.6% en los datos de validación con una perdida de 0.10, lo cual fue bastante satisfactorio. También revisamos la curva de aprendizaje para asegurarnos de que el modelo no estuviera sobreajustando, y todo salió dentro de lo esperado.
 
+![image](https://github.com/user-attachments/assets/b8017f7d-1542-4096-b5bf-adb99b0ef20f)
 
 ![image](https://github.com/user-attachments/assets/62369d4a-0d86-44d8-b7fc-b1a1e0cd2580)
 
 ![image](https://github.com/user-attachments/assets/4866b885-086b-4e71-9e27-bce8cfc7cee3)
+
+![image](https://github.com/user-attachments/assets/b04cf89b-6c31-4e89-9454-65966d403656)
 
 ## Resultados
 Durante el experimento, se utilizó un Arduino Nano 33 BLE con un giroscopio integrado para detectar y registrar movimientos en los tres ejes (x, y, z). El objetivo era encender LEDs de diferentes colores al detectar el movimiento que realizaba el Arduino: un LED rojo al dibujar un círculo, un LED azul al dibujar el número 3 y un LED verde al dibujar el número 1. Sin embargo, los resultados obtenidos no fueron los esperados debido a los siguientes inconvenientes:
