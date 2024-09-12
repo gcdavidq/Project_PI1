@@ -16,6 +16,9 @@ El objetivo principal de esta tarea consistió en recolectar datos de movimiento
 
 ## Metodología
 - Subida de Datos a Edge Impulse: Explicar cómo subiste los datos capturados a Edge Impulse. Incluir detalles sobre cómo etiquetaste las muestras y los pasos seguidos en la plataforma.
+1. Subida de Datos a Edge Impulse
+En primer lugar, se capturaron los datos utilizando el acelerómetro del Arduino Nano 33 BLE Sense, grabando movimientos que formaban figuras específicas como un círculo, el número "1" y el número "3". Estos datos fueron cargados a la plataforma Edge Impulse a través de la herramienta de conexión serial. Cada muestra fue etiquetada manualmente para asociarla con la figura correspondiente. El etiquetado adecuado fue fundamental para garantizar la precisión del modelo durante el entrenamiento. En Edge Impulse, se siguieron los pasos estándar: creación de un proyecto, selección de dispositivo y subida de los datos capturados.
+  
   ![image](https://github.com/user-attachments/assets/8129bab5-8f62-4d73-a57d-c05b2f172943)
 - Preprocesamiento: Describir cualquier preprocesamiento realizado, como filtrado de ruido, normalización, o segmentación de los datos.
 
