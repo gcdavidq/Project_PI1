@@ -26,10 +26,10 @@ El objetivo de esta tarea consistió en recolectar datos mediante la grabación 
 ![image](https://github.com/user-attachments/assets/4866b885-086b-4e71-9e27-bce8cfc7cee3)
 
 ## Resultados
-Durante el experimento, se utilizó un Arduino Nano 33 BLE con un giroscopio integrado para detectar y registrar movimientos en los tres ejes (x, y, z). El objetivo era encender LEDs de diferentes colores al detectar el movimiento que realizaba en arduino nano 33, el objetivo era encender un led rojo cuando el arduino dibuje un círculo, un led azul cuando el arduino dibuje el número 3 y un led verde cuando el arduino dibuje el número 1. Sin embargo, los resultados obtenidos no fueron los esperados debido a los siguientes inconvenientes:
+Durante el experimento, se utilizó un Arduino Nano 33 BLE con un giroscopio integrado para detectar y registrar movimientos en los tres ejes (x, y, z). El objetivo era encender LEDs de diferentes colores al detectar el movimiento que realizaba el Arduino: un LED rojo al dibujar un círculo, un LED azul al dibujar el número 3 y un LED verde al dibujar el número 1. Sin embargo, los resultados obtenidos no fueron los esperados debido a los siguientes inconvenientes:
 
 ### Falla en el procesamiento de la información:
-Si bien, luego de varios cambios en el codigo y otros percanses, logramos hacer que los resultados del giroscopio del arduino pudieran ser detectados, y de esa manera conseguimos que encendiera los LEDs correspondientes al momento de realizar los movimientos de círculo y uno, sin embargo, no logramos hacer que detectara el movimiento del 3 para que encendiera el LED.
+Aunque, luego de varios cambios en el código y otros percances, logramos que los resultados del giroscopio fueran detectados correctamente, consiguiendo que se encendieran los LEDs correspondientes al realizar los movimientos de círculo y uno, no logramos hacer que el sistema detectara el movimiento del número 3 para encender el LED azul.
 
 Resultados:
 ![IMG-20240911-WA0012 1](https://github.com/user-attachments/assets/3520e0e9-4222-4bb5-a3c9-c90f4ba5676c)
