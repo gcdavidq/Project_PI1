@@ -32,7 +32,9 @@ Durante el experimento, se utilizó un Arduino Nano 33 BLE con un giroscopio int
 Si bien, luego de varios cambios en el codigo y otros percanses, logramos hacer que los resultados del giroscopio del arduino pudieran ser detectados, y de esa manera conseguimos que encendiera los LEDs correspondientes al momento de realizar los movimientos de círculo y uno, sin embargo, no logramos hacer que detectara el movimiento del 3 para que encendiera el LED.
 
 Resultados:
-![image](https://github.com/user-attachments/assets/e93eceb1-d831-4699-b68d-a22d7e2d019a)
+![IMG-20240911-WA0012 1](https://github.com/user-attachments/assets/3520e0e9-4222-4bb5-a3c9-c90f4ba5676c)
+
+![Imagen de WhatsApp 2024-09-11 a las 23 24 58_e09d6a94](https://github.com/user-attachments/assets/2f28b441-7869-4a8f-b5cb-fe726aafe25b)
 
 
 ## Referencias
