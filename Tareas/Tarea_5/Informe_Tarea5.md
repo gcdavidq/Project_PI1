@@ -1,4 +1,4 @@
-# INFORME N°5 - REGRESIÓN LINEAL - PI1
+# INFORME N°5 
 
 ## INTEGRANTES: 
 - Arquiño Cerna, Noemi Salomina
