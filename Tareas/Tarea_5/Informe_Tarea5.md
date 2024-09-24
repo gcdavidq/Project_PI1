@@ -32,6 +32,23 @@ Probamos el funcionamiento de los sensores y que sus mediciones se muestren en e
 
 ![WhatsApp Image 2024-09-22 at 11 32 44 PM](https://github.com/user-attachments/assets/d26a73e2-dc2e-446d-a801-271addcad7d3)
 
+## DISCUSIÓN:
+
+El uso del Internet de las Cosas (IoT) en este proyecto destaca por su simplicidad y efectividad al integrar sensores con el fin de medir y controlar variables físicas. En este caso, la capacidad de gestionar la humedad de una planta mediante un sensor, junto con un relé y un sistema de control remoto a través de un panel web, es una aplicación práctica que refleja el valor del IoT en la automatización de procesos cotidianos.
+
+Uno de los puntos clave en el experimento es la utilización del sensor de humedad, que, como se explicó en la introducción, mide la resistencia variable según la cantidad de agua presente en el entorno. Este tipo de sensores es extremadamente útil en aplicaciones agrícolas o domésticas, donde se busca optimizar el riego de las plantas y evitar tanto el exceso como la escasez de agua.
+
+El relé, por su parte, se utiliza como un interruptor electrónico que permite la activación o desactivación de dispositivos de mayor potencia, en este caso el LED, a través de señales de baja potencia provenientes de la placa Arduino. Esta metodología es muy común en proyectos que requieren la integración de sistemas de control remoto con dispositivos de potencia superior, como motores o sistemas de iluminación.
+
+Aspectos a considerar
+
+- Eficiencia del Sistema: Un sistema basado en IoT como este permite la automatización eficiente del riego de plantas, reduciendo el desperdicio de agua. Sin embargo, es importante evaluar la respuesta en tiempo real del sistema, especialmente en el entorno web. Un retraso en la activación o desactivación del relé podría comprometer la precisión del riego automático.
+
+- Robustez del Hardware: Si bien el MKR IoT Carrier es adecuado para aplicaciones básicas, la capacidad del relé para manejar cargas más altas podría limitar el tipo de dispositivos que se pueden conectar. Sería interesante realizar pruebas con otros tipos de relés para ampliar las aplicaciones del sistema.
+
+- Fiabilidad de las Medidas: Los sensores de humedad, como cualquier otro sensor, están sujetos a variaciones y errores en las mediciones. Es fundamental incorporar rutinas de calibración y algoritmos de filtrado en el código para garantizar que las lecturas sean precisas y consistentes, especialmente si el sistema se utiliza en aplicaciones donde las decisiones automáticas tienen un impacto significativo.
+
+- Seguridad del Sistema IoT: En este tipo de proyectos, la seguridad siempre debe considerarse un aspecto primordial. Al tratarse de un sistema IoT conectado a la nube, es necesario implementar mecanismos de seguridad robustos para evitar vulnerabilidades como accesos no autorizados que puedan comprometer el correcto funcionamiento del sistema.
 
 ## REFERENCIAS:
 [[1]] Arduino, “Agricultura urbana 101”. [Online]. Disponible en: https://edu-content-preview.arduino.cc/content-preview/high_school/lesson/CONTENTPREVIEW+IOTSK
