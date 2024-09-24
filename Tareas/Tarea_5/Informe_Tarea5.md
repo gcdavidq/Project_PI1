@@ -44,9 +44,7 @@ Aspectos a considerar
 
 - Eficiencia del Sistema: Un sistema basado en IoT como este permite la automatización eficiente del riego de plantas, reduciendo el desperdicio de agua. Sin embargo, es importante evaluar la respuesta en tiempo real del sistema, especialmente en el entorno web. Un retraso en la activación o desactivación del relé podría comprometer la precisión del riego automático.
 
-- Robustez del Hardware: Si bien el MKR IoT Carrier es adecuado para aplicaciones básicas, la capacidad del relé para manejar cargas más altas podría limitar el tipo de dispositivos que se pueden conectar. Sería interesante realizar pruebas con otros tipos de relés para ampliar las aplicaciones del sistema.
-
-- Fiabilidad de las Medidas: Los sensores de humedad, como cualquier otro sensor, están sujetos a variaciones y errores en las mediciones. Es fundamental incorporar rutinas de calibración y algoritmos de filtrado en el código para garantizar que las lecturas sean precisas y consistentes, especialmente si el sistema se utiliza en aplicaciones donde las decisiones automáticas tienen un impacto significativo.
+- Robustez del Hardware: Si bien el MKR IoT Carrier es adecuado para aplicaciones básicas, la capacidad del relé para manejar cargas más altas podría limitar el tipo de dispositivos que se pueden conectar.
 
 - Seguridad del Sistema IoT: En este tipo de proyectos, la seguridad siempre debe considerarse un aspecto primordial. Al tratarse de un sistema IoT conectado a la nube, es necesario implementar mecanismos de seguridad robustos para evitar vulnerabilidades como accesos no autorizados que puedan comprometer el correcto funcionamiento del sistema.
 
