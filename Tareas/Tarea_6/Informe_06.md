@@ -5,8 +5,8 @@
 ### 2.1. Modelado 3D en Onshape
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="[imagen1.jpg](https://github.com/user-attachments/assets/94b47e88-b497-4b31-b1a7-583a2ab1da0a)" alt="Imagen 1" width="300" height="200">
-  <img src="[imagen2.jpg](https://github.com/user-attachments/assets/90f4f80d-faea-4fda-8fba-9c796997eed3)" alt="Imagen 2" width="300" height="200">
+  <img src="https://github.com/user-attachments/assets/94b47e88-b497-4b31-b1a7-583a2ab1da0a" alt="Imagen 1" width="300" height="200">
+  <img src="https://github.com/user-attachments/assets/90f4f80d-faea-4fda-8fba-9c796997eed3" alt="Imagen 2" width="300" height="200">
 </div>
 
 ![image](https://github.com/user-attachments/assets/77b5b072-51c3-4a78-a443-bc3657d49a59)
