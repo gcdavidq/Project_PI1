@@ -15,7 +15,8 @@
 </div>
 
 ### 2.2. Simulación de esfuerzos mecánicos en Simscale
-<img src="https://github.com/user-attachments/assets/623c5932-552a-4d46-b1e9-81b6cfa333cd" width="500 style="display: block; margin-left: auto; margin-right: auto;">
+
+  <img src="https://github.com/user-attachments/assets/623c5932-552a-4d46-b1e9-81b6cfa333cd" width="500" style="display: block; margin-left: auto; margin-right: auto;">
 
 ## 3. Resultados
 
