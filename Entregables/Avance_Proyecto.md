@@ -5,3 +5,32 @@ La recolección de residuos sólidos en Perú enfrenta varios desafíos debido a
 Nuestro proyecto EcoRouteX propone una solución innovadora basada en la optimización de rutas para la recolección de residuos sólidos, utilizando tecnologías avanzadas como algoritmos de optimización, sistemas de geolocalización (GPS) y bases de datos en tiempo real. Esta solución tiene como objetivo principal reducir el tiempo de operación, el consumo de combustible y las emisiones de gases de efecto invernadero (GEI), abordando de manera integral las deficiencias actuales en la gestión de residuos sólidos en Lima y otras ciudades del Perú.
 ### Optimización de rutas mediante algoritmos avanzados
 La piedra angular de EcoRouteX es el uso de un algoritmo de optimización de rutas, específicamente el Algoritmo de Dijkstra, conocido por su eficiencia en la planificación de caminos más cortos en redes de nodos. En el contexto de la recolección de residuos, los nodos representan los puntos de recolección (contenedores) y el objetivo es minimizar las distancias recorridas por los camiones recolectores, priorizar la recolección en aquellos puntos con mayores volúmenes de residuos y estimar el tiempo que demoraría en ser recogido cada punto.
+
+![](https://github.com/gcdavidq/Project_PI1/blob/main/Imagenes/pseudocodigo.png)
+**Codigo 1:** Pseudocódigo del algoritmo que usa EcoRouteX para realizar la búsqueda eficiente, creación propia
+
+Este algoritmo optimiza el tiempo de recorrido, maximizando el número de puntos atendidos en menos tiempo y reduciendo la cantidad de combustible utilizado por los camiones, lo que a su vez disminuye las emisiones de CO₂. A diferencia del método tradicional, en el que los camiones siguen rutas preestablecidas sin considerar factores como el nivel de llenado de los contenedores o el tráfico, EcoRouteX permite que las rutas se ajusten en tiempo real para mejorar la eficiencia operativa. Este ajuste en tiempo real no solo reduce los costos operativos, sino que también mejora la vida útil de las infraestructuras viales al evitar la sobrecarga innecesaria en ciertas zonas de la ciudad.
+### Tecnología de geolocalización y uso de datos en tiempo real
+Para lograr la optimización, integramos tecnologías de geolocalización (GPS) y OpenStreetMap para obtener un mapa detallado de las áreas urbanas, incluyendo calles, rutas, señales de tránsito y reductores de velocidad (semáforos y rompemuelles). Los camiones recolectores estarán equipados con dispositivos GPS que permitirán rastrear su posición en tiempo real, facilitando así el monitoreo de su progreso en las rutas definidas.
+
+![](https://github.com/gcdavidq/Project_PI1/blob/main/Imagenes/resultadoecoroutex.png)
+
+**Imagen 1:** Resultado del algoritmo EcoRouteX, creacion propia
+
+![](https://github.com/gcdavidq/Project_PI1/blob/main/Imagenes/rutaestablecida.png)
+
+**Imagen 2:** Mapa mostrando los caminos que debe seguir el camión compactador, creación propia
+
+Además, el sistema se conecta a una base de datos en tiempo real (como Firebase o MySql), donde se almacenan los datos del nivel de llenado de los contenedores de basura. Esto se lograria mediante el uso de sensores en los contenedores que registran el nivel de ocupación y transmiten esa información al sistema central. De esta forma, el algoritmo de optimización puede ajustar las rutas según la prioridad de los contenedores más llenos, garantizando que los camiones recolectores no hagan viajes innecesarios a puntos vacíos o semi vacíos.
+Esta integración de tecnologías permitirá a las municipalidades y operadoras de servicios de recolección tomar decisiones informadas sobre el uso de los recursos, ajustando en tiempo real la operación para maximizar la eficiencia y reducir los costos asociados.
+Además de los beneficios ambientales, EcoRouteX ofrece una ventaja económica considerable para las municipalidades. Al reducir el tiempo que los camiones pasan en operación y minimizar las distancias recorridas, el proyecto permite un ahorro significativo en costos de combustible. A esto se suma la disminución en los costos de mantenimiento de los vehículos, ya que estos estarán sujetos a menos desgaste por las rutas optimizadas y más cortas. También se espera que la vida útil de las infraestructuras viales aumente, lo que reducirá los costos de reparación y mantenimiento de calles dañadas por el tráfico pesado.
+
+## Bibliografía
+
+[1] J. M. A. Bernal, J. A. B. Ruíz, J. C. A. Díaz, y V. A. T. Monteza, “Planificador de rutas para recojo de desechos sólidos utilizando el algoritmo de DIJKSTRA,” Ingeniería: Ciencia Tecnología e Innovación, vol. 8, no. 2, pp. 92–99, 2021.
+
+[2] M. A. Hannan, R. A. Begum, A. Q. Al-Shetwi, P. J. Ker, M. A. Al Mamun, A. Hussain, y T. M. I. Mahlia, “Waste collection route optimisation model for linking cost saving and emission reduction to achieve sustainable development goals,” Sustainable Cities and Society, no. 102393, 2020.
+
+[3] A. M. Segura, L. A. Rojas, y Y. A. Pulido, “Referentes mundiales en sistemas de gestión de residuos sólidos,” Grupo Editorial Espacios GEES, 2020.
+
+[4] Perú indicadores de Gestión Municipal 2020, Gob.pe, 2020. [En línea]. Disponible: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1791/. [Consultado: 11-jul-2024].
