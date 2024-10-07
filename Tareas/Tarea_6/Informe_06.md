@@ -9,6 +9,7 @@ Para este caso, se utilizó un modelo CAD al que se le asignó acero como materi
 Con esta simulación, se logró obtener una comprensión más detallada del comportamiento del ensamble bajo las condiciones de carga establecidas. Esto garantiza que la estructura puede cumplir con los requisitos de seguridad y funcionalidad esperados. El uso de SimScale permitió realizar este análisis de forma eficiente, ofreciendo resultados confiables que ayudan en la toma de decisiones para el diseño y evaluación de la estructura
 ## 2. Metodología
 ### 2.1. Modelado 3D en Onshape
+Para realizar la simulación estructural primero hicimos el modelado de una estructura simple en Onshape siguiendo el tutorial presentado en clase. En total se modelaron 2 piezas y 2 soportes que posteriormente pasamos a ensamblaje. Para propósitos del análisis se realizó una partición de 30 mm con la herramienta “split” en la cara superior del modelo.
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/user-attachments/assets/94b47e88-b497-4b31-b1a7-583a2ab1da0a" width="400" height="300">
@@ -21,6 +22,7 @@ Con esta simulación, se logró obtener una comprensión más detallada del comp
 </div>
 
 ### 2.2. Simulación de esfuerzos mecánicos en Simscale
+Una vez modelada la estructura, creamos un proyecto en Simscale, importamos el Assembly de nuestro modelo y creamos la simulación.
 
   <img src="https://github.com/user-attachments/assets/623c5932-552a-4d46-b1e9-81b6cfa333cd" alt="Mesh" width="500">
 
