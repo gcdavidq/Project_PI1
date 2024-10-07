@@ -34,20 +34,29 @@ Luego, pasamos a fijar los 2 soportes cilíndricos, seleccionamos la partición 
 ## 3. Resultados
 
 <div style="display: flex; justify-content: space-between;">
+Las áreas en rojo y amarillo, que indican las zonas de mayor tensión. Esto es crítico para entender dónde el material está más estresado.
+
+
   <img src="https://github.com/user-attachments/assets/9efbbbd2-1b0d-4dc6-bcd0-142ecef6684c" width="400" height="300">
   <img src="https://github.com/user-attachments/assets/fc4e35bf-fc74-482e-9b86-a3517f0614b9" width="400" height="300">
+  
   <img src="https://github.com/user-attachments/assets/b2990c64-fde2-49cc-899e-55bee578253e" width="400" height="300">
 </div>
+Estas vistas permiten ver el modelo desde diferentes ángulos. La comparación entre estas imágenes ayuda a visualizar cómo las tensiones se distribuyen en el ensamble en respuesta a las cargas aplicadas. Al observar diferentes ángulos, se pueden identificar variaciones en el comportamiento estructural.
+
+  
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/user-attachments/assets/072f33f8-dd1a-4ebd-b202-6d5f239857db" width="400" height="300">
+
+	
+ En esta imagen, se pueden observar los puntos críticos donde las tensiones son más altas. Las áreas en rojo indican potenciales fallas bajo cargas extremas. Este análisis es crucial para la optimización del diseño.
+	
   <img src="https://github.com/user-attachments/assets/45ab73c4-830e-478a-b78d-e07da7cbb50a" width="400" height="300">
   <img src="https://github.com/user-attachments/assets/24281c9c-6ea0-49e8-b22c-43856ebcdf81" width="400" height="300">
 </div>
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/user-attachments/assets/cuMhFiVL0DmOehiHO8WtA6rT" width="400" height="300">
-</div>
+Ayudan a reforzar la identificación de zonas que requieren atención especial en términos de diseño y selección de materiales.
 
 ## 4. Discusiones
 La presente simulación se hizo en base a un modelo sencillo, para realizar una simulación en una pieza más compleja se deben considerar varios aspectos:
