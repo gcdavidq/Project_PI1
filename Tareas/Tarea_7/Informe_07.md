@@ -88,3 +88,7 @@ Los capacitores de desacoplo de 0.1 µF se conectan entre el wiper del potenció
 
 El diseño de este circuito está orientado a permitir la lectura de señales analógicas generadas por potenciómetros, con el objetivo de usar esos datos en el control de un sistema basado en el microcontrolador ESP32. El uso de un regulador LM2596 para proporcionar alimentación estable, junto con capacitores de desacoplo para filtrar señales, asegura la integridad y estabilidad del circuito. 
 
+
+## Imagenes de lo desarrollado:
+
+
