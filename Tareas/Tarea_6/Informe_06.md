@@ -22,7 +22,12 @@ Para realizar la simulación estructural primero hicimos el modelado de una estr
 </div>
 
 ### 2.2. Simulación de esfuerzos mecánicos en Simscale
-Una vez modelada la estructura, creamos un proyecto en Simscale, importamos el Assembly de nuestro modelo y creamos la simulación.
+Una vez modelada la estructura, creamos un proyecto en Simscale, importamos el Assembly de nuestro modelo y creamos la simulación. Como en el análisis vamos a considerar desplazamientos y contactos activamos la opción de Análisis no Lineal. En la parte de contactos nos identifica 3: entre capa pieza con su soporte (2) y entre las 2 piezas (1). El tipo de contacto por default es “bonded” que es adecuado para el contacto entre nuestras piezas principales. Sin embardo, para el contacto entre las piezas y los soportes cambiamos a tipo de contacto “Sliding” para permitir el desplazamiento entre las superficies.
+Para esta simulación, asignamos acero como el material de todas nuestras piezas. Dependiendo del material cambian las propiedades, para el acero tenemos las siguientes características:
+
+<img src="https://github.com/user-attachments/assets/4a656663-61be-4cb8-b379-9703edeceafb" alt="Mesh" width="500">
+
+Luego, pasamos a fijar los 2 soportes cilíndricos, seleccionamos la partición que hicimos en el modelo y aplicamos una fuerza de -1000 Newton en el eje Z. En el siguiente paso creamos el mallado (Mesh), ajustamos los parámetros para refinar el mallado y finalmente corremos la simulación.
 
   <img src="https://github.com/user-attachments/assets/623c5932-552a-4d46-b1e9-81b6cfa333cd" alt="Mesh" width="500">
 
