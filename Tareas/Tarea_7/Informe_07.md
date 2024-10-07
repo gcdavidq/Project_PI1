@@ -14,8 +14,8 @@ El ESP32 es un mictrocontrolador de doble núcleo con capacidades de Wifi y Blue
   - Pines IO: Pines utilizados para leer señales analógicas desde los potenciómetros. Estos pines convierten el voltaje variable (entre 0 y 3.3V) en valores digitales para ser procesados.
     
 - Interacción con otros componentes
- - Alimentación del ESP32 proviene del LM2596, el cual entrega 5V.
- - Los potenciómetros están conectados a los pines ADC del ESP32 para permitir la lectura del voltaje variable generado. 
+    -  Alimentación del ESP32 proviene del LM2596, el cual entrega 5V.
+    - Los potenciómetros están conectados a los pines ADC del ESP32 para permitir la lectura del voltaje variable generado. 
 
 ### 2. LM2596 (Regulador de Voltaje) 
 
