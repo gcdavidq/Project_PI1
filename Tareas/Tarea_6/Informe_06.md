@@ -28,7 +28,27 @@ Una vez modelada la estructura, creamos un proyecto en Simscale, importamos el A
 
 ## 3. Resultados
 
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/9efbbbd2-1b0d-4dc6-bcd0-142ecef6684c" width="400" height="300">
+  <img src="https://github.com/user-attachments/assets/fc4e35bf-fc74-482e-9b86-a3517f0614b9" width="400" height="300">
+  <img src="https://github.com/user-attachments/assets/b2990c64-fde2-49cc-899e-55bee578253e" width="400" height="300">
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/072f33f8-dd1a-4ebd-b202-6d5f239857db" width="400" height="300">
+  <img src="https://github.com/user-attachments/assets/45ab73c4-830e-478a-b78d-e07da7cbb50a" width="400" height="300">
+  <img src="https://github.com/user-attachments/assets/24281c9c-6ea0-49e8-b22c-43856ebcdf81" width="400" height="300">
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/cuMhFiVL0DmOehiHO8WtA6rT" width="400" height="300">
+</div>
+
 ## 4. Discusiones
+
+				
+	
+
 
 ## 5. Conclusiones
 
