@@ -90,6 +90,10 @@ El diseño de este circuito está orientado a permitir la lectura de señales an
 
 
 ## Imagenes de lo desarrollado:
+<a href="https://www.flux.ai/gian12/variable-magenta-flying-cab?editor=pcb_3d">https://www.flux.ai/gian12/variable-magenta-flying-cab?editor=pcb_3d </a>
+
+
+### Link del circuito en Flux Ai
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/user-attachments/assets/06a37a7a-3562-4856-a6b7-4659d029aa7d" width="400" height="300">
@@ -106,4 +110,5 @@ El diseño de este circuito está orientado a permitir la lectura de señales an
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/user-attachments/assets/866036f3-793a-405b-ae56-964df98d9163" width="400" height="300">
 </div>
+
 
