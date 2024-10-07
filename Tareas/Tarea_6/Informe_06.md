@@ -36,7 +36,7 @@ Luego, pasamos a fijar los 2 soportes cilíndricos, seleccionamos la partición 
 <div style="display: flex; justify-content: space-between;">
 
  
-Las áreas en rojo y amarillo, que indican las zonas de mayor tensión. Esto es crítico para entender dónde el material está más estresado.
+Las áreas en rojo y amarillo, que indican las zonas de mayor tensión es crítico para entender dónde el material está más estresado.
 
 
   <img src="https://github.com/user-attachments/assets/9efbbbd2-1b0d-4dc6-bcd0-142ecef6684c" width="400" height="300">
@@ -45,9 +45,9 @@ Las áreas en rojo y amarillo, que indican las zonas de mayor tensión. Esto es 
   <img src="https://github.com/user-attachments/assets/b2990c64-fde2-49cc-899e-55bee578253e" width="400" height="300">
 </div>
 
-Estas vistas permiten ver el modelo desde diferentes ángulos. La comparación entre estas imágenes ayuda a visualizar cómo las tensiones se distribuyen en el ensamble en respuesta a las cargas aplicadas. Al observar diferentes ángulos, se pueden identificar variaciones en el comportamiento estructural.
+Estas vistas permiten ver el modelo desde diferentes ángulos la comparación entre estas imágenes ayuda a visualizar cómo las tensiones se distribuyen en el ensamble en respuesta a las cargas aplicadas. Al observar diferentes ángulos, se pueden identificar variaciones en el comportamiento estructural.
 
-  
+
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/user-attachments/assets/072f33f8-dd1a-4ebd-b202-6d5f239857db" width="400" height="300">
