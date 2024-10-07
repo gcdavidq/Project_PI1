@@ -33,3 +33,14 @@ Una vez modelada la estructura, creamos un proyecto en Simscale, importamos el A
 ## 5. Conclusiones
 
 ## Referencias
+[1] SimScale. Structural Analysis (FEA) in SimScale https://www.simscale.com/docs/tutorials/structural-analysis/
+
+[2] Onshape Inc. Collaborative Cloud CAD Software https://www.onshape.com/en/
+
+[3] W. D. Callister and D. G. Rethwisch, Materials Science and Engineering: An Introduction, 9th ed. John Wiley & Sons, 2018.
+
+[4] T. Belytschko, W. K. Liu, B. Moran, and K. Elkhodary, Nonlinear Finite Elements for Continua and Structures. Wiley, 2014.
+
+[5] R. C. Hibbeler, Engineering Mechanics: Statics & Dynamics, 14th ed. Pearson Education, 2015.
+
+[6] SimScale Community, Mechanical Stress Analysis Documentation https://www.simscale.com/community/project/
