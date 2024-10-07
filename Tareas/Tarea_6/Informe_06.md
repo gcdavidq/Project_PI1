@@ -50,9 +50,10 @@ Luego, pasamos a fijar los 2 soportes cilíndricos, seleccionamos la partición 
 </div>
 
 ## 4. Discusiones
-
-				
-	
+La presente simulación se hizo en base a un modelo sencillo, para realizar una simulación en una pieza más compleja se deben considerar varios aspectos:
+-	El material de las piezas no siempre es el mismo, por lo que se debe seleccionar el material de cada pieza cuidadosamente y verificar que hemos configurado correctamente las propiedades del material.
+-	También se debe analizar el lugar donde aplicarán la o las fuerzas para la simulación de acuerdo con el contexto en el que se planee utilizar el objeto modelado.
+-	Una vez realizada la simulación podremos ubicar las partes débiles de nuestra estructura y optimizar su diseño.
 
 
 ## 5. Conclusiones
