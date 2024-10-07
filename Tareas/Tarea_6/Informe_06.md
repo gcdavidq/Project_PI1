@@ -69,6 +69,7 @@ La presente simulación se hizo en base a un modelo sencillo, para realizar una 
 
 
 ## 5. Conclusiones
+Realizar análisis estructural de nuestros modelos es fundamental para garantizar que las estructuras diseñadas sean capaces de soportar las fuerzas que se les aplicarán en situaciones reales. Especialmente en el contexto de proyectos donde la idea es modelar objetos que van a ser utilizados en diferentes contextos y condiciones, los resultados que obtengamos nos sirven para identificar puntos débiles y en consecuencia optimizar el diseño de nuestros modelos. Esto nos permite llegar a la fase de prototipado con mejores modelos, disminuyendo el costo invertido en materiales.
 
 ## Referencias
 [1] SimScale. Structural Analysis (FEA) in SimScale https://www.simscale.com/docs/tutorials/structural-analysis/
