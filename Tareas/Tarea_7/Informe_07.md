@@ -11,7 +11,8 @@ El ESP32 es un mictrocontrolador de doble núcleo con capacidades de Wifi y Blue
 - Pines importantes: 
   - 3.3 V: Se utiliza para alimentar otros componentes del circuito, como los potenciómetros y asegurar que el microcontrolador esté hailitado. 
   - Pin EN (Enable): Utilizado para habilitar o deshabilitar el ESP32. Al conectarlo a 3.3V a través de una resistencia pull-up, el ESP32 permanece habilitado. 
-  - Pines IO: Pines utilizados para leer señales analógicas desde los potenciómetros. Estos pines convierten el voltaje variable (entre 0 y 3.3V) en valores digitales para ser procesados. 
+  - Pines IO: Pines utilizados para leer señales analógicas desde los potenciómetros. Estos pines convierten el voltaje variable (entre 0 y 3.3V) en valores digitales para ser procesados.
+    
 - Interacción con otros componentes
  - Alimentación del ESP32 proviene del LM2596, el cual entrega 5V.
  - Los potenciómetros están conectados a los pines ADC del ESP32 para permitir la lectura del voltaje variable generado. 
