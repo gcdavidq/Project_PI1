@@ -91,12 +91,19 @@ El diseño de este circuito está orientado a permitir la lectura de señales an
 
 ## Imagenes de lo desarrollado:
 
-![Captura de pantalla 2024-10-06 234929](https://github.com/user-attachments/assets/06a37a7a-3562-4856-a6b7-4659d029aa7d)
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/06a37a7a-3562-4856-a6b7-4659d029aa7d" width="400" height="300">
+</div>
 
-![Captura de pantalla 2024-10-06 234959](https://github.com/user-attachments/assets/7e8eee2f-68bb-41cc-a181-89cd9e7780b5)
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/7e8eee2f-68bb-41cc-a181-89cd9e7780b5" width="400" height="300">
+</div>
 
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/1cf40c0a-cff6-40d5-9dea-99ef56708a46" width="400" height="300">
+</div>
 
-![Captura de pantalla 2024-10-06 235019](https://github.com/user-attachments/assets/1cf40c0a-cff6-40d5-9dea-99ef56708a46)
-
-![Captura de pantalla 2024-10-06 235027](https://github.com/user-attachments/assets/866036f3-793a-405b-ae56-964df98d9163)
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/866036f3-793a-405b-ae56-964df98d9163" width="400" height="300">
+</div>
 
