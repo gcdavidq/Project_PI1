@@ -89,11 +89,11 @@ Los capacitores de desacoplo de 0.1 µF se conectan entre el wiper del potenció
 El diseño de este circuito está orientado a permitir la lectura de señales analógicas generadas por potenciómetros, con el objetivo de usar esos datos en el control de un sistema basado en el microcontrolador ESP32. El uso de un regulador LM2596 para proporcionar alimentación estable, junto con capacitores de desacoplo para filtrar señales, asegura la integridad y estabilidad del circuito. 
 
 
-## Imagenes de lo desarrollado:
-<a href="https://www.flux.ai/gian12/variable-magenta-flying-cab?editor=pcb_3d">https://www.flux.ai/gian12/variable-magenta-flying-cab?editor=pcb_3d </a>
-
 
 ### Link del circuito en Flux Ai
+<a href="https://www.flux.ai/gian12/variable-magenta-flying-cab?editor=pcb_3d">https://www.flux.ai/gian12/variable-magenta-flying-cab?editor=pcb_3d </a>
+
+## Imagenes de lo desarrollado:
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/user-attachments/assets/06a37a7a-3562-4856-a6b7-4659d029aa7d" width="400" height="300">
