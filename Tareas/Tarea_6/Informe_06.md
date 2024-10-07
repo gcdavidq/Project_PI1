@@ -1,6 +1,12 @@
 # Informe 06: Simulación de esfuerzos mecánicos
 ## 1. Introducción
+En este informe se presenta el análisis de una simulación estructural realizada sobre un ensamble básico utilizando la plataforma SimScale. Esta herramienta basada en la nube nos ha permitido realizar simulaciones complejas sin necesidad de equipos de alto rendimiento, lo que la convierte en una opción accesible y eficiente para llevar a cabo análisis de ingeniería. SimScale es especialmente útil en estudios de simulación estructural, térmica y de fluidos.
 
+El objetivo principal de esta simulación fue predecir cómo se comportaría el modelo del ensamble bajo diversas condiciones de carga. Este tipo de análisis estructural resulta fundamental para garantizar que las estructuras diseñadas sean capaces de soportar las fuerzas que se les aplicarán en situaciones reales. Al conocer las tensiones y deformaciones que se generan en los diferentes componentes, se puede optimizar el diseño y prevenir fallos antes de la implementación o fabricación.
+
+Para este caso, se utilizó un modelo CAD al que se le asignó acero como material, elegido por sus características de alta resistencia y durabilidad. A partir de este modelo, se definieron las condiciones de contorno de cómo el ensamble está fijo o sujeto, y se aplicaron las cargas correspondientes. Esto permitió analizar el comportamiento estructural bajo dichas condiciones, observando las tensiones y deformaciones generadas.
+
+Con esta simulación, se logró obtener una comprensión más detallada del comportamiento del ensamble bajo las condiciones de carga establecidas. Esto garantiza que la estructura puede cumplir con los requisitos de seguridad y funcionalidad esperados. El uso de SimScale permitió realizar este análisis de forma eficiente, ofreciendo resultados confiables que ayudan en la toma de decisiones para el diseño y evaluación de la estructura
 ## 2. Metodología
 ### 2.1. Modelado 3D en Onshape
 
