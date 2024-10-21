@@ -97,18 +97,5 @@ El **algoritmo de Dijkstra** es esencial para garantizar:
 
 Además, permite identificar limitaciones, como la necesidad de manejar pesos negativos en los grafos, lo cual podría resolverse con algoritmos alternativos como **Bellman-Ford**.
 
----
-
-### Correcciones y Mejoras
-
-- Se ha estructurado mejor la descripción de los grafos y el algoritmo de Dijkstra.
-- Se han explicado los sistemas de coordenadas y los protocolos de comunicación.
-- Se ha añadido mayor claridad a los componentes de hardware y a la importancia del algoritmo en el proyecto.
-
-Este trabajo se ajusta a los requisitos de **TRL-1** al detallar los fundamentos teóricos necesarios para implementar una solución de optimización de rutas basada en el algoritmo de Dijkstra.
-
----
-
-Con estos ajustes, tu trabajo cubre bien los aspectos teóricos de los grafos y su aplicación en algoritmos de optimización de rutas, integrando correctamente los sistemas de coordenadas, protocolos de comunicación, y componentes de hardware en la simulación.
 
 
