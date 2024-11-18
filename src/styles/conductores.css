@@ -1,0 +1,91 @@
+.driver-info {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.icon svg {
+    width: 40px;
+    height: 40px;
+}
+
+.driver-cards {
+    width: 100%;
+    margin: auto;
+}
+/* Estilo para cada fila */
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd; /* Línea divisoria entre filas */
+}
+
+/* Estilo para cada columna */
+.column {
+    width: 30%;
+    min-width: 150px;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+.driver-card {
+    background-color: #f9f9f9;
+    border: 1px solid #000;
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+}
+
+.driver-card p {
+    flex: 1 1 100%;
+    font-weight: bold;
+    color: #333;
+}
+.user{
+    font-weight: 700;
+}
+.route {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.date, .time {
+    padding: 5px 3px;
+}
+
+@media (min-width: 768px) {
+    .driver-info {
+        flex-direction: column;
+    }
+    .icons {
+        flex-direction: row;
+        margin-right: 20px;
+    }
+    .driver-card {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .driver-card p {
+        flex: 1;
+        text-align: left;
+    }
+}

@@ -1,0 +1,72 @@
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.mapa-actual{
+    min-height: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+.content {
+    display: flex;
+    gap: 20px;
+}
+.filter-panel {
+    background-color: #e0f7f4;
+    padding: 50px 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+.filter-panel h2 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%;
+}
+.filter-group input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.route-image {
+    flex-grow: 1;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Responsividad  */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .filter-panel {
+        width: 100%;
+    }
+
+    .route-image {
+        margin-top: 20px;
+        border: 1 solid black;
+    }
+}

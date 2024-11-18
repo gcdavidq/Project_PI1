@@ -1,0 +1,139 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.inter-medium{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+/* Container */
+.container {
+    width: 100%;
+    text-align: center;
+    background-image: none;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.title h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+.title h2 {
+    font-size: 1.2em;
+    color: #fefefe;
+    margin-bottom: 1em;
+}
+.all{
+    width: 100%;
+    display: flexbox;
+}
+.logo-container img {
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Login Box */
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #4a4a4a;
+}
+
+input[type="text"], input[type="password"],select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%;
+}
+button {
+    padding: 10px;
+    background-color: #79D1C3;
+    border:None;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #049469;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #4a4a4a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .background h1 {
+        font-size: 1.8em;
+    }
+
+    .background h2 {
+        font-size: 1em;
+    }
+
+    .logo-container img {
+        width: 120px;
+    }
+
+    .login-box {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 1em;
+    }
+}
