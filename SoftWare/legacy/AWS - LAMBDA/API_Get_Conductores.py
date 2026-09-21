@@ -4,9 +4,9 @@ import json
 def lambda_handler(event, context):
     # Configuración de la conexión a la base de datos
     connection = pymysql.connect(
-        host='junction.proxy.rlwy.net',
+        host='<DB_HOST>',
         user='root',
-        password='GUGPuaDajYUZbtXKVvqgtmeWIeRrYuwM',
+        password='<DB_PASSWORD>',
         database='EcoRoutex',
         port=42752,
         connect_timeout=10000

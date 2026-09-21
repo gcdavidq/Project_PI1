@@ -1,0 +1,32 @@
+# Blueprint de Render: crea la API (Docker) y el frontend (sitio estático).
+# Render -> New -> Blueprint -> seleccionar este repositorio.
+services:
+  - type: web
+    name: ecoroutex-api
+    runtime: docker
+    plan: free
+    region: virginia # la más cercana a la base de datos de Neon (São Paulo)
+    rootDir: backend
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        sync: false # pegar la cadena de conexión de Neon
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGINS
+        sync: false # URL pública del frontend, p. ej. https://ecoroutex.onrender.com
+
+  - type: web
+    name: ecoroutex
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    routes:
+      # SPA: cualquier ruta la resuelve React Router.
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_URL
+        sync: false # URL pública de la API, p. ej. https://ecoroutex-api.onrender.com

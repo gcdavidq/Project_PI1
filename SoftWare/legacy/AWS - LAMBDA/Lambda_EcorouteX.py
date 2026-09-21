@@ -80,9 +80,9 @@ def lambda_handler(event, context):
     def subir_mapa(m, recorrido, sector, distancia_total, tiempo_total):
         # Conexión a la base de datos
         conexion = pymysql.connect(
-                host='junction.proxy.rlwy.net',
+                host='<DB_HOST>',
                 user='root',
-                password='GUGPuaDajYUZbtXKVvqgtmeWIeRrYuwM',
+                password='<DB_PASSWORD>',
                 database='EcoRoutex',
                 port=42752,
                 connect_timeout=10000
@@ -200,9 +200,9 @@ def lambda_handler(event, context):
     def obtener_datos_contenedor_activo_sector(sector_determinado):
         # Conexión a la base de datos
         connection = pymysql.connect(
-            host='junction.proxy.rlwy.net',
+            host='<DB_HOST>',
             user='root',
-            password='GUGPuaDajYUZbtXKVvqgtmeWIeRrYuwM',
+            password='<DB_PASSWORD>',
             database='EcoRoutex',
             port=42752,
             connect_timeout=10000
