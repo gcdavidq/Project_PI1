@@ -150,7 +150,7 @@ export default function Optimizador({ puedeGuardar = false }) {
               <br />
               {servidor === 'despertando'
                 ? 'El plan gratuito se duerme tras un rato sin visitas; puede tardar hasta un minuto.'
-                : 'Está tardando más de lo normal. Seguimos intentando; el mapa aparecerá solo.'}
+                : 'Está tardando más de lo normal. Seguimos intentando; el mapa aparecerá solo. Si usas un bloqueador de anuncios, prueba a desactivarlo para este sitio.'}
             </p>
           </div>
         )}

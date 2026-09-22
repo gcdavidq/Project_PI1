@@ -52,7 +52,9 @@ async function pedir(ruta, { metodo = 'GET', cuerpo } = {}) {
 }
 
 export const api = {
-  health: () => pedir('/health'),
+  // No se usa /health: algunos bloqueadores de anuncios filtran esa ruta
+  // (ERR_BLOCKED_BY_CLIENT). Consultar un sector despierta también la base de datos.
+  despertar: () => pedir('/contenedores?sector=1'),
   login: (dni, password) => pedir('/auth/login', { metodo: 'POST', cuerpo: { dni, password } }),
   contenedores: (sector) => pedir(`/contenedores?sector=${sector}`),
   optimizar: (parametros) => pedir('/rutas/optimizar', { metodo: 'POST', cuerpo: parametros }),

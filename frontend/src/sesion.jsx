@@ -15,7 +15,7 @@ export function ProveedorSesion({ children }) {
     let intento = 0
     const ping = () =>
       api
-        .health()
+        .despertar()
         .then(() => !cancelado && setServidor('listo'))
         .catch(() => {
           if (cancelado) return
