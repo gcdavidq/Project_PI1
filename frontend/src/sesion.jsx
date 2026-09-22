@@ -20,8 +20,10 @@ export function ProveedorSesion({ children }) {
         .catch(() => {
           if (cancelado) return
           intento += 1
+          // Un arranque en frío de Render puede pasar del minuto: tras ~1 min se
+          // avisa que tarda más de lo normal, pero se sigue reintentando.
           if (intento >= 12) setServidor('caido')
-          else setTimeout(ping, 5000)
+          setTimeout(ping, intento >= 12 ? 10000 : 5000)
         })
     ping()
     return () => {

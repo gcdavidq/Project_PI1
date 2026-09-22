@@ -144,22 +144,14 @@ export default function Optimizador({ puedeGuardar = false }) {
       <div className="marco-mapa">
         {servidor !== 'listo' && (
           <div className="velo-mapa">
-            {servidor === 'despertando' ? (
-              <>
-                <span className="spinner" />
-                <p>
-                  <strong>Despertando el servidor…</strong>
-                  <br />
-                  El plan gratuito se duerme tras un rato sin visitas; puede tardar hasta un minuto.
-                </p>
-              </>
-            ) : (
-              <p>
-                <strong>El servidor no responde.</strong>
-                <br />
-                Recarga la página en unos minutos.
-              </p>
-            )}
+            <span className="spinner" />
+            <p>
+              <strong>Despertando el servidor…</strong>
+              <br />
+              {servidor === 'despertando'
+                ? 'El plan gratuito se duerme tras un rato sin visitas; puede tardar hasta un minuto.'
+                : 'Está tardando más de lo normal. Seguimos intentando; el mapa aparecerá solo.'}
+            </p>
           </div>
         )}
         <MapaRuta
